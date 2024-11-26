@@ -1,0 +1,17 @@
+.appbar {
+    background-color: var(--secondary-bg);
+    height: 60px;
+    color: black;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.appbar h1 {
+    font-size: 32px;
+}
+
+.separator {
+    color: var(--content);
+}

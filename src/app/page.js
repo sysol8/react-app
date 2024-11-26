@@ -1,16 +1,12 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-import Sidebar from "./Sidebar"
+import styles from './page.module.css'
 
-export default function App() {
+export default function Home() {
   return (
-    <div className="main">
-      <header className="appbar" role="banner">
-        <button id="sidebar-btn"></button>
-        <h1>Sex</h1>
-        <button id="menu-btn"></button>
-      </header>
-      <Sidebar />
-    </div>
+      <div className={styles.pageContent}>
+        <div className={styles.widgetContainer}>
+          <div className={styles.widgetContent}>SEGGS</div>
+        </div>
+        <div className={styles.widgetContainer}>Seggs</div>
+      </div>
   )
 }

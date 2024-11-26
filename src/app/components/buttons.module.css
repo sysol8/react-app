@@ -1,0 +1,21 @@
+.sidebarButton {
+    border-style: hidden;
+    background: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .sidebarButton i {
+    color: var(--primary-text);
+    font-size: 36px;
+  }
+  
+  .menuButton {
+    padding-right: 10px;
+    font-size: 28px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }

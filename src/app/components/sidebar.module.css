@@ -1,0 +1,75 @@
+.sidebar .divider {
+  border-top: 1px solid white;
+  margin: 10px 0;
+}
+
+.sidebar {
+  width: 240px;
+  background-color: var(--content);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.sidebar.collapsed {
+  width: 60px;
+}
+
+.sidebar nav {
+  flex-grow: 1;
+}
+
+.sidebar nav ul {
+  list-style: none;
+}
+
+.sidebar nav ul li {
+  display: block;
+  margin: 15px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.5);
+}
+
+.navLink {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  height: 40px;
+}
+
+.navLink:hover {
+  background-color: #b13939;
+}
+
+.navLink i,
+.loginButton i {
+  font-size: 22px;
+  flex-shrink: 0;
+  width: 40px;
+}
+
+.navLink span,
+.loginButton span {
+  font-size: 18px;
+}
+
+.loginButton {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  white-space: nowrap;
+  cursor: pointer;
+  border-style: none;
+  background: none;
+  color: white;
+  padding: 20px;
+}
+
+.logo {
+  align-self: center;
+}
